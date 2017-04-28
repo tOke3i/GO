@@ -1,12 +1,12 @@
-# starter-template-gulp
-My starter template 
+# GO project
+
 
 Install:
-
- Then in project folder open terminal and write: npm i.
+    Clone or download this repo.
+    Then in project folder open terminal and write: npm i.
 
 Usage:
-npm start (and work).
+    Gulp serve (and work).
 
 ____________________________________________________________________________________________
 Production build(all minified):
