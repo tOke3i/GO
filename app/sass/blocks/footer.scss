@@ -1,0 +1,38 @@
+.footer{
+  background: $footer-bg;
+  min-height:80px;
+
+
+}
+.footer__nav-list{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding:1.8rem 0 1.6rem;
+  flex-wrap: wrap;
+  @media (max-width:360px) {
+    flex-direction: column;
+  }
+  li{
+    margin:0 1.5rem;
+    @media (max-width:650px) {
+      margin:1.5rem;
+    }
+  }
+
+    a{
+      color: $grey;
+      font-weight:bold;
+        &:hover{
+          color: #fff;
+        }
+    }
+
+}
+.copy-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $grey;
+}
