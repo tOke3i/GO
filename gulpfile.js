@@ -60,13 +60,13 @@ gulp.task("serve", ["style", "html"], function() {
 
 // build task (start)
 gulp.task("clean-dev", function() {
-	return gulp.src("app/dev-build", {
+	return gulp.src("dev-build", {
 			read: false
 		})
 		.pipe(clean());
 });
 gulp.task("clean-production", function() {
-	return gulp.src("app/build", {
+	return gulp.src("build", {
 		read: false
 	})
 		.pipe(clean());
