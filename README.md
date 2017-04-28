@@ -1,5 +1,7 @@
 # GO project
 
+gh-pages:
+https://toke3i.github.io/GO/
 
 Install:
     Clone or download this repo.
